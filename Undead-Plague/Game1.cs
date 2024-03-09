@@ -20,6 +20,7 @@ public class Game1 : Game
 
     private void InitStates()
     {
+        // We will need MainMenuState first propably
         states = new Stack<State>();
         states.Push(new TestState());
     }
@@ -71,7 +72,6 @@ public class Game1 : Game
         // TODO: Add your drawing code here
         if(base.IsActive)
         {
-            //GraphicsDevice.Clear(Color.Black);
             if(states.Count != 0)
             {
                 states.Peek().Draw();

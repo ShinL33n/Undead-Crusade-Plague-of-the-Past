@@ -4,6 +4,7 @@ using Gui;
 using Microsoft.Xna.Framework.Input;
 using System;
 
+// Just for tests having fun
 public class TestState : State
 {
     Button btn;

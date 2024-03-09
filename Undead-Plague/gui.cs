@@ -42,6 +42,7 @@ namespace Gui
             this.hover_color =hover_color;
             this.active_color = active_color;
 
+            // Maybe there's better way to do this
             btnTexture = new Texture2D(Globals.GraphicsDevice,(int)resolution.X,(int)resolution.Y);
             Color[] data = new Color[(int)resolution.X*(int)resolution.Y];
             for(int i=0; i < data.Length; ++i) data[i] = Color.White;
@@ -66,7 +67,7 @@ namespace Gui
                 }
             }
 
-            // POTRZEBNY REFACTORING NIENAWIDZE SPOSOBU USTAWIANIA TEKSTUR TUTAJ :DD
+            // Maybe there's more versatile way than Mask_color
             switch(buttonState)
             {
                 case (int)button_states.IDLE:

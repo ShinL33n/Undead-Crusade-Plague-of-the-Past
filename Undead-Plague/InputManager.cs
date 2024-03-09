@@ -27,12 +27,9 @@ public static class InputManager
     private static MouseState MouseState { get; set; }
     private static MouseState LastMouseState { get; set; }
     
-    public static Rectangle MouseCursor { get;private set; }
-    public static Vector2 MousePos {get;private set;}
-    public static bool MouseClicked {get;private set;} // test
-
-
-    //private static Rectangle MouseCursor { get; set; }
+    public static Rectangle MouseCursor { get; private set; }
+    public static Vector2 MousePos {get; private set;}
+    public static bool MouseClicked {get; private set;} // test
 
     public static bool WasKeyTriggered(Keys key) // Trigger
     {
@@ -62,6 +59,7 @@ public static class InputManager
 
         MouseClicked = (MouseState.LeftButton == ButtonState.Released) && (LastMouseState.LeftButton == ButtonState.Pressed);
 
+        // Create super small rectangle at mousePos so i can use MouseCursor.Intersects to handle "hovering" 
         MouseCursor = new(MouseState.Position, new(1, 1));
     }
 }
