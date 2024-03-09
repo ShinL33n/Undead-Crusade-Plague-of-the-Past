@@ -5,18 +5,16 @@ using Undead_Plague;
 
 namespace Gui
 {
-    public static class Gui
+    public static class GuiManager
     {
-        public static float _scalingFactor
-        {
-            get {return 1;}
-        }
+        //scalingFactor {get; set;}
+        //public int count {get; set;}
     }
 
     public enum button_states {IDLE = 0, HOVER, ACTIVE};
     public class Button
     {
-        private int buttonState;
+        private int _buttonState;
         private Texture2D btnTexture;
         private Color mask_color;
         public Color idle_color, hover_color, active_color;
@@ -34,7 +32,7 @@ namespace Gui
         public Button(Vector2 position, Vector2 resolution,
         Color idle_color,Color hover_color,Color active_color)
         {
-            buttonState = (int)button_states.IDLE;
+            _buttonState = (int)button_states.IDLE;
             this.position = position;
             this.resolution = resolution;
 
@@ -51,24 +49,24 @@ namespace Gui
 
         public bool Clicked()
         {
-            return buttonState == (int)button_states.ACTIVE;
+            return _buttonState == (int)button_states.ACTIVE;
         }
 
         public void Update()
         {
-            buttonState = (int)button_states.IDLE;
+            _buttonState = (int)button_states.IDLE;
 
             if (InputManager.MouseCursor.Intersects(rect))
             {
-                buttonState = (int)button_states.HOVER;
+                _buttonState = (int)button_states.HOVER;
                 if(InputManager.MouseClicked)
                 {
-                    buttonState = (int)button_states.ACTIVE;
+                    _buttonState = (int)button_states.ACTIVE;
                 }
             }
 
             // Maybe there's more versatile way than Mask_color
-            switch(buttonState)
+            switch(_buttonState)
             {
                 case (int)button_states.IDLE:
                 mask_color = idle_color;

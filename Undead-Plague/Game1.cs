@@ -11,6 +11,7 @@ public class Game1 : Game
 {
     private Stack<State> states;
 
+
     public Game1()
     {
         Globals.Graphics = new GraphicsDeviceManager(this);
@@ -36,6 +37,7 @@ public class Game1 : Game
     protected override void LoadContent()
     {
         Globals.GraphicsDevice = GraphicsDevice;
+
         Globals.SpriteBatch = new SpriteBatch(Globals.GraphicsDevice);
 
         // TODO: use this.Content to load your game content here
