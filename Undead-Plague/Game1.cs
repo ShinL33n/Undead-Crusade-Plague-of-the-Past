@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 using States;
 
-namespace ProjectGui;
+namespace Undead_Plague;
 
 // Only 1 class should inherit from Game
 public class Game1 : Game

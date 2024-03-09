@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
 
-namespace ProjectGui;
+namespace Undead_Plague;
 public static class Globals
 {
     public static GraphicsDevice GraphicsDevice {get;set;}
