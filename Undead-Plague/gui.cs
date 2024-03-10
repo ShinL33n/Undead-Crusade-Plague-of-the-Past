@@ -47,8 +47,7 @@ namespace Gui
             this.font = font;
             this.text = text;
 
-            //(font.MeasureString(text)/2;
-            textPos = position + resolution/4;
+            textPos = position + (resolution - font.MeasureString(text))/2;
 
             this.text_color = text_color;
             this.idle_color = idle_color;
@@ -75,8 +74,8 @@ namespace Gui
             // Texts
             this.font = font;
             this.text = text;
-            //(font.MeasureString(text)/2;
-            textPos = position + resolution/4;
+
+            textPos = position + (resolution - font.MeasureString(text))/2;
 
             // Colors & Textures
             this.text_color = text_color;
