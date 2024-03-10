@@ -37,6 +37,8 @@ public class Game1 : Game
 
         Globals.SpriteBatch = new SpriteBatch(Globals.GraphicsDevice);
 
+        Globals.Content = Content;
+
         // TODO: use this.Content to load your game content here
         // Entry Point
         LoadStates();

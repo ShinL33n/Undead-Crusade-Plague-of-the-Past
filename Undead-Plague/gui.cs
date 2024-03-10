@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.CompilerServices;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Undead_Plague;
@@ -15,11 +16,16 @@ namespace Gui
     public class Button
     {
         private int _buttonState;
-        private Texture2D btnTexture;
-        private Color mask_color;
-        public Color idle_color, hover_color, active_color;
         public Vector2 position;
         public Vector2 resolution;
+        private Texture2D btnTexture;
+        public Color idle_color, hover_color, active_color;
+        private Color mask_color;
+        
+        private SpriteFont font;
+        private string text;
+        private Vector2 textPos;
+        public Color text_color;
         
         private Rectangle rect
         {
@@ -30,12 +36,21 @@ namespace Gui
         }
 
         public Button(Vector2 position, Vector2 resolution,
+        SpriteFont font, string text, Color text_color,
         Color idle_color,Color hover_color,Color active_color)
         {
+            // Button coord
             _buttonState = (int)button_states.IDLE;
             this.position = position;
             this.resolution = resolution;
 
+            this.font = font;
+            this.text = text;
+
+            //(font.MeasureString(text)/2;
+            textPos = position + resolution/4;
+
+            this.text_color = text_color;
             this.idle_color = idle_color;
             this.hover_color =hover_color;
             this.active_color = active_color;
@@ -89,6 +104,7 @@ namespace Gui
         {
             Globals.SpriteBatch.Begin();
             Globals.SpriteBatch.Draw(btnTexture,rect,mask_color);
+            Globals.SpriteBatch.DrawString(font,text,textPos,text_color);
             Globals.SpriteBatch.End();
         }
     }
