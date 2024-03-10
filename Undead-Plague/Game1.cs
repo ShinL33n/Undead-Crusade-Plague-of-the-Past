@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -6,11 +7,9 @@ using States;
 
 namespace Undead_Plague;
 
-// Only 1 class should inherit from Game
 public class Game1 : Game
 {
-    private Stack<State> states;
-
+    public static Stack<State> states;
 
     public Game1()
     {
@@ -19,7 +18,7 @@ public class Game1 : Game
         IsMouseVisible = true;
     }
 
-    private void InitStates()
+    private void LoadStates()
     {
         // We will need MainMenuState first propably
         states = new Stack<State>();
@@ -29,8 +28,6 @@ public class Game1 : Game
     protected override void Initialize()
     {
         // TODO: Add your initialization logic here
-        InitStates();
-
         base.Initialize();
     }
 
@@ -41,10 +38,8 @@ public class Game1 : Game
         Globals.SpriteBatch = new SpriteBatch(Globals.GraphicsDevice);
 
         // TODO: use this.Content to load your game content here
-        if(states.Count != 0)
-        {  
-            states.Peek().LoadContent();
-        }
+        // Entry Point
+        LoadStates();
     }
 
     protected override void Update(GameTime gameTime)
@@ -63,6 +58,7 @@ public class Game1 : Game
         }
         else 
         {
+            Console.WriteLine("Exiting game");
             Exit();
         }
 
@@ -74,6 +70,8 @@ public class Game1 : Game
         // TODO: Add your drawing code here
         if(base.IsActive)
         {
+            Globals.Graphics.GraphicsDevice.Clear(Color.Black);
+
             if(states.Count != 0)
             {
                 states.Peek().Draw();
