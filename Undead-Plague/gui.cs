@@ -18,10 +18,9 @@ namespace Gui
         private int _buttonState;
         public Vector2 position;
         public Vector2 resolution;
-        private Texture2D btnTexture;
+        private Texture2D texture;
         public Color idle_color, hover_color, active_color;
         private Color mask_color;
-        
         private SpriteFont font;
         private string text;
         private Vector2 textPos;
@@ -35,6 +34,7 @@ namespace Gui
             }
         }
 
+        // No Texture pass
         public Button(Vector2 position, Vector2 resolution,
         SpriteFont font, string text, Color text_color,
         Color idle_color,Color hover_color,Color active_color)
@@ -56,11 +56,38 @@ namespace Gui
             this.active_color = active_color;
 
             // Maybe there's better way to do this
-            btnTexture = new Texture2D(Globals.GraphicsDevice,(int)resolution.X,(int)resolution.Y);
+            texture = new Texture2D(Globals.GraphicsDevice,(int)resolution.X,(int)resolution.Y);
             Color[] data = new Color[(int)resolution.X*(int)resolution.Y];
             for(int i=0; i < data.Length; ++i) data[i] = Color.White;
-            btnTexture.SetData(data);
+            texture.SetData(data);
         }
+
+        // Texture pass
+        public Button(Vector2 position, Vector2 resolution, Texture2D texture,
+        SpriteFont font, string text, Color text_color,
+        Color idle_color,Color hover_color,Color active_color)
+        {
+            // Button coord
+            _buttonState = (int)button_states.IDLE;
+            this.position = position;
+            this.resolution = resolution;
+
+            // Texts
+            this.font = font;
+            this.text = text;
+            //(font.MeasureString(text)/2;
+            textPos = position + resolution/4;
+
+            // Colors & Textures
+            this.text_color = text_color;
+            this.idle_color = idle_color;
+            this.hover_color =hover_color;
+            this.active_color = active_color;
+
+            this.texture = texture;
+        }
+
+
 
         public bool Clicked()
         {
@@ -103,7 +130,7 @@ namespace Gui
         public void Draw()
         {
             Globals.SpriteBatch.Begin();
-            Globals.SpriteBatch.Draw(btnTexture,rect,mask_color);
+            Globals.SpriteBatch.Draw(texture,rect,mask_color);
             Globals.SpriteBatch.DrawString(font,text,textPos,text_color);
             Globals.SpriteBatch.End();
         }

@@ -19,7 +19,7 @@ public class PlaygroundTestState : State
     {
         font = Content.Load<SpriteFont>("Fonts/testFont");
 
-        btn = new Button(new Vector2(100,150),new Vector2(50,100), font,"flaku debil", new Color(255,255,255), new Color(255,0,255),new Color(255,255,0),new Color(0,255,255));
+        btn = new Button(new Vector2(100,150),new Vector2(100,50), font,"flaku debil", new Color(255,255,255), new Color(255,0,255),new Color(255,255,0),new Color(0,255,255));
     }
 
     public override void Update(GameTime gameTime)
