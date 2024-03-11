@@ -50,7 +50,7 @@ public class TestState : State
 
         if(btn3.Clicked())
         {
-            Game1.states.Push(new PlaygroundTestState());
+            Game1.statesManager.addState(new PlaygroundTestState());
         }
     }
 

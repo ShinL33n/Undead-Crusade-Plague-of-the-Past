@@ -26,4 +26,10 @@
     <Message Text="Restoring dotnet tools" Importance="High" />
     <Exec Command="dotnet tool restore" />
   </Target>
+  <ItemGroup>
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\Undead-Plague\Models*.cs"/>
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\Undead-Plague\Gui*.cs" />
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\Undead-Plague\States\*.cs"/>
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\Undead-Plague\Managers*.cs"/>
+  </ItemGroup>
 </Project>

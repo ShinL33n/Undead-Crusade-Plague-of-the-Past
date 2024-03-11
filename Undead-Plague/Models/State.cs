@@ -19,18 +19,19 @@ public abstract class State
         Content = new ContentManager(Globals.Content.ServiceProvider,"Content");
 
         LoadContent();
-        Console.WriteLine("Starting State" + Game1.states.Count.ToString());
+        Console.WriteLine("Starting State" + Game1.statesManager.Count.ToString());
     }
 
     public virtual void LoadContent(){}
     protected virtual void UnloadContent()
     {
+        // need more testing
         if (Content != null)
         {
-            Content.Unload(); // Through Manager DZIALA ! XD
-            Content.Dispose(); // Outside Manager
+            Content.Unload(); 
+            Content.Dispose(); 
             Content = null;
-            Console.WriteLine("Clearing State content" + (Game1.states.Count-1).ToString());
+            Console.WriteLine("Clearing State content" + (Game1.statesManager.Count-1).ToString());
         }
     }
 
@@ -39,8 +40,8 @@ public abstract class State
 
     public virtual void End()
     {
-        this.UnloadContent();
+        UnloadContent();
 
-        Console.WriteLine("Ending State" + (Game1.states.Count-1).ToString());
+        Console.WriteLine("Ending State" + (Game1.statesManager.Count-1).ToString());
     }
 }
