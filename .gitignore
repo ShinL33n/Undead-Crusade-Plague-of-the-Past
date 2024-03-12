@@ -35,6 +35,7 @@ x64/
 *.lib
 *.sbr
 *.sdf
+.vs/
 ipch/
 obj/
 [Bb]in
