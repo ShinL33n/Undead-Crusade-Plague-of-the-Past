@@ -1,20 +1,20 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-using States;
+using Scenes;
 
 namespace Undead_Plague;
 
 public class Game1 : Game
 {
-    public static StatesManager statesManager;
+    public static SceneManager SceneManager;
 
     public Game1()
     {
         Globals.Graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
-        statesManager = new StatesManager();
+        SceneManager = new SceneManager();
     }
 
     protected override void Initialize()
@@ -33,15 +33,15 @@ public class Game1 : Game
         Globals.Content = Content;
 
         // Entry Point
-        statesManager.addState(new MainMenuState());
+        SceneManager.addScene(new MainMenuScene());
     }
 
     protected override void Update(GameTime gameTime)
     {
         // TODO: Add your update logic here
-        statesManager.Update(gameTime);
+        SceneManager.Update(gameTime);
 
-        if(statesManager.IsEmpty) Exit();
+        if(SceneManager.IsEmpty) Exit();
 
         base.Update(gameTime);
     }
@@ -53,7 +53,7 @@ public class Game1 : Game
         {
             Globals.Graphics.GraphicsDevice.Clear(Color.Black);
 
-            statesManager.Draw();
+            SceneManager.Draw();
         }
 
         base.Draw(gameTime);

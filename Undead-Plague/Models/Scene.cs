@@ -3,15 +3,16 @@ using Microsoft.Xna.Framework.Content;
 using System;
 using Undead_Plague;
 
-// Base Class for Variety of States in App: MainMenu,Options,Game,Camera,Editor,Playground,Pause menu etc..
+// Base Class for Variety of Scenes in App: MainMenu,Options,Game,Camera,Editor,Playground,Pause menu etc..
 // Simple for handling and seperating diffrent parts of application
-// Maybe in future we will need StateData class
-namespace States;
-public abstract class State
+// Maybe in future we will need SceneData class
+namespace Scenes;
+public abstract class Scene
 {
     public bool quit {get; protected set;}
     protected ContentManager Content;
-    public State() 
+    
+    public Scene() 
     { 
         quit = false; 
         // If we can use our own ServiceProvider then we could COMPLETELY eliminate Globals.Content !
@@ -19,7 +20,7 @@ public abstract class State
         Content = new ContentManager(Globals.Content.ServiceProvider,"Content");
 
         LoadContent();
-        Console.WriteLine("Starting State" + Game1.statesManager.Count.ToString());
+        Console.WriteLine("Starting Scene" + Game1.SceneManager.Count.ToString());
     }
 
     public virtual void LoadContent(){}
@@ -31,7 +32,7 @@ public abstract class State
             Content.Unload(); 
             Content.Dispose(); 
             Content = null;
-            Console.WriteLine("Clearing State content" + (Game1.statesManager.Count-1).ToString());
+            Console.WriteLine("Clearing Scene content" + (Game1.SceneManager.Count-1).ToString());
         }
     }
 
@@ -42,6 +43,6 @@ public abstract class State
     {
         UnloadContent();
 
-        Console.WriteLine("Ending State" + (Game1.statesManager.Count-1).ToString());
+        Console.WriteLine("Ending Scene" + (Game1.SceneManager.Count-1).ToString());
     }
 }

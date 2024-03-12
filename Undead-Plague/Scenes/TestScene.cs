@@ -2,14 +2,14 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using System;
 
-using States;
+using Scenes;
 using Gui;
 using Undead_Plague;
 using Microsoft.Xna.Framework.Graphics;
 
 
 // Just for tests having fun
-public class TestState : State
+public class TestScene : Scene
 {
     Button btn;
     Button btn2;
@@ -18,7 +18,7 @@ public class TestState : State
 
     Texture2D texture;
 
-    public TestState(){}
+    public TestScene(){}
 
     public override void LoadContent()
     {
@@ -50,7 +50,7 @@ public class TestState : State
 
         if(btn3.Clicked())
         {
-            Game1.statesManager.addState(new PlaygroundTestState());
+            Game1.SceneManager.addScene(new PlaygroundTestScene());
         }
     }
 

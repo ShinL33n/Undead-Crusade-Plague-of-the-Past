@@ -3,22 +3,23 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-using States;
+using Scenes;
 using Gui;
 using Undead_Plague;
 
+
 // Just for tests having fun
-public class MainMenuState : State
+public class PlaygroundTestScene : Scene
 {
-    Button btn_edytor;
+    Button btn;
     SpriteFont font;
-    public MainMenuState(){}
+    public PlaygroundTestScene(){}
 
     public override void LoadContent()
     {
         font = Content.Load<SpriteFont>("Fonts/testFont");
 
-        btn_edytor = new Button(new Vector2(100,150),new Vector2(300,50), font,"Edytor", new Color(255,255,255), new Color(255,0,255),new Color(255,255,0),new Color(0,255,255));
+        btn = new Button(new Vector2(100,150),new Vector2(100,50), font,"flaku debil", new Color(255,255,255), new Color(255,0,255),new Color(255,255,0),new Color(0,255,255));
     }
 
     public override void Update(GameTime gameTime)
@@ -26,17 +27,13 @@ public class MainMenuState : State
         InputManager.Update();
         if(InputManager.WasKeyTriggered(Keys.Escape)) quit = true;
 
-        btn_edytor.Update();
+        btn.Update();
         
-        if(btn_edytor.Clicked())
-        {
-            Console.WriteLine(btn_edytor.Clicked().ToString());
-            Game1.statesManager.addState(new TestState());
-        } 
+        if(btn.Clicked()) Console.WriteLine(btn.Clicked().ToString());
     }
 
     public override void Draw()
     {
-        btn_edytor.Draw();     
+        btn.Draw();     
     }
 }
