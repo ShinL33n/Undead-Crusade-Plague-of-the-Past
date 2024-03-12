@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\core\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:core\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\managers\\guimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:managers\\guimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\global\\sharedimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:global\\sharedimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\models\\sceneupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:models\\sceneupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\scenes\\settingsscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:scenes\\settingsscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\scenes\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:scenes\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\scenes\\menuscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:scenes\\menuscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\models\\scenepure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:models\\scenepure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\gui\\elements\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:gui\\elements\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\global\\globaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:global\\globaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|d:\\dokumenty\\programming projects\\c#\\monogame\\undead-crusade-plague-of-the-past-cp\\undead-crusade-plague-of-the-past\\undeadplague\\core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B662B92-2071-482C-B28F-3ECE43D8F4DB}|UndeadPlague.csproj|solutionrelative:core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.manifest",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-03-12T17:34:26.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SharedImports.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Global\\SharedImports.cs",
+              "RelativeDocumentMoniker": "Global\\SharedImports.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Global\\SharedImports.cs",
+              "RelativeToolTip": "Global\\SharedImports.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T17:28:10.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GuiManager.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Managers\\GuiManager.cs",
+              "RelativeDocumentMoniker": "Managers\\GuiManager.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Managers\\GuiManager.cs",
+              "RelativeToolTip": "Managers\\GuiManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T17:15:09.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SceneUpdate.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Models\\SceneUpdate.cs",
+              "RelativeDocumentMoniker": "Models\\SceneUpdate.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Models\\SceneUpdate.cs",
+              "RelativeToolTip": "Models\\SceneUpdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:54:17.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Managers\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Managers\\SceneManager.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Managers\\SceneManager.cs",
+              "RelativeToolTip": "Managers\\SceneManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:42:24.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SettingsScene.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Scenes\\SettingsScene.cs",
+              "RelativeDocumentMoniker": "Scenes\\SettingsScene.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Scenes\\SettingsScene.cs",
+              "RelativeToolTip": "Scenes\\SettingsScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:21:52.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameScene.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Scenes\\GameScene.cs",
+              "RelativeDocumentMoniker": "Scenes\\GameScene.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Scenes\\GameScene.cs",
+              "RelativeToolTip": "Scenes\\GameScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:21:06.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Managers\\InputManager.cs",
+              "RelativeDocumentMoniker": "Managers\\InputManager.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Managers\\InputManager.cs",
+              "RelativeToolTip": "Managers\\InputManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:17:00.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuScene.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Scenes\\MenuScene.cs",
+              "RelativeDocumentMoniker": "Scenes\\MenuScene.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Scenes\\MenuScene.cs",
+              "RelativeToolTip": "Scenes\\MenuScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T15:55:01.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScenePure.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Models\\ScenePure.cs",
+              "RelativeDocumentMoniker": "Models\\ScenePure.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Models\\ScenePure.cs",
+              "RelativeToolTip": "Models\\ScenePure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T15:54:48.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Button.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Gui\\Elements\\Button.cs",
+              "RelativeDocumentMoniker": "Gui\\Elements\\Button.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Gui\\Elements\\Button.cs",
+              "RelativeToolTip": "Gui\\Elements\\Button.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T15:54:25.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GlobalData.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Global\\GlobalData.cs",
+              "RelativeDocumentMoniker": "Global\\GlobalData.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Global\\GlobalData.cs",
+              "RelativeToolTip": "Global\\GlobalData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T15:53:59.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Core\\Game1.cs",
+              "RelativeDocumentMoniker": "Core\\Game1.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Core\\Game1.cs",
+              "RelativeToolTip": "Core\\Game1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T15:53:31.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Core\\Program.cs",
+              "RelativeDocumentMoniker": "Core\\Program.cs",
+              "ToolTip": "D:\\Dokumenty\\Programming projects\\C#\\MonoGame\\Undead-Crusade-Plague-of-the-Past-cp\\Undead-Crusade-Plague-of-the-Past\\UndeadPlague\\Core\\Program.cs",
+              "RelativeToolTip": "Core\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T15:52:49.776Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

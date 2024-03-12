@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType> <!-- Change to Exe if you want output to console, WinExe to release-->
+    <TargetFramework>net6.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Media\Icons\Icon.ico" />
+    <None Remove="Media\Icons\Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Icons\Icon.ico" />
+    <EmbeddedResource Include="Media\Icons\Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+  </ItemGroup>
+  <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
+    <Message Text="Restoring dotnet tools" Importance="High" />
+    <Exec Command="dotnet tool restore" />
+  </Target>
+  <ItemGroup>
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\Undead-Plague\Models\*.cs" />
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\Undead-Plague\Gui*.cs" />
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\Undead-Plague\Scenes\*.cs" />
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\Undead-Plague\Managers\*.cs" />
+  </ItemGroup>
+</Project>
