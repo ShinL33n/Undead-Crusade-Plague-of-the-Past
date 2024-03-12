@@ -29,8 +29,9 @@
   <ItemGroup>
     <Compile Include="Undead-Crusade-Plague-of-the-Past\UndeadPlague\Models\*.cs" />
     <Compile Include="Undead-Crusade-Plague-of-the-Past\UndeadPlague\Gui\*.cs" />
-	<Compile Include="Undead-Crusade-Plague-of-the-Past\UndeadPlague\Gui\*\*.cs" />
+	  <Compile Include="Undead-Crusade-Plague-of-the-Past\UndeadPlague\Gui\*\*.cs" />
     <Compile Include="Undead-Crusade-Plague-of-the-Past\UndeadPlague\Scenes\*.cs" />
     <Compile Include="Undead-Crusade-Plague-of-the-Past\UndeadPlague\Managers\*.cs" />
+    <Compile Include="Undead-Crusade-Plague-of-the-Past\UndeadPlague\Core\*.cs" />
   </ItemGroup>
 </Project>

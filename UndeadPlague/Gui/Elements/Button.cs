@@ -1,5 +1,3 @@
-using System;
-using System.Runtime.CompilerServices;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using UndeadPlague.Global;
@@ -12,7 +10,7 @@ namespace UndeadPlague.Gui.Elements
 
         private int _buttonState;
         public Vector2 position;
-        public Vector2 resolution;
+        public Vector2 size;
         private Texture2D texture;
         public Color idle_color, hover_color, active_color;
         private Color mask_color;
@@ -25,24 +23,24 @@ namespace UndeadPlague.Gui.Elements
         {
             get
             {
-                return new Rectangle((int)position.X, (int)position.Y, (int)resolution.X, (int)resolution.Y);
+                return new Rectangle((int)position.X, (int)position.Y, (int)size.X, (int)size.Y);
             }
         }
 
         // No Texture pass
-        public Button(Vector2 position, Vector2 resolution,
+        public Button(Vector2 position, Vector2 size,
         SpriteFont font, string text, Color text_color,
         Color idle_color, Color hover_color, Color active_color)
         {
             // Button coord
             _buttonState = (int)button_states.IDLE;
             this.position = position;
-            this.resolution = resolution;
+            this.size = size;
 
             this.font = font;
             this.text = text;
 
-            textPos = position + (resolution - font.MeasureString(text)) / 2;
+            textPos = position + (size - font.MeasureString(text)) / 2;
 
             this.text_color = text_color;
             this.idle_color = idle_color;
@@ -50,27 +48,27 @@ namespace UndeadPlague.Gui.Elements
             this.active_color = active_color;
 
             // Maybe there's better way to do this
-            texture = new Texture2D(GlobalData.GraphicsDevice, (int)resolution.X, (int)resolution.Y);
-            Color[] data = new Color[(int)resolution.X * (int)resolution.Y];
+            texture = new Texture2D(GlobalData.GraphicsDevice, (int)size.X, (int)size.Y);
+            Color[] data = new Color[(int)size.X * (int)size.Y];
             for (int i = 0; i < data.Length; ++i) data[i] = Color.White;
             texture.SetData(data);
         }
 
         // Texture pass
-        public Button(Vector2 position, Vector2 resolution, Texture2D texture,
+        public Button(Vector2 position, Vector2 size, Texture2D texture,
         SpriteFont font, string text, Color text_color,
         Color idle_color, Color hover_color, Color active_color)
         {
             // Button coord
             _buttonState = (int)button_states.IDLE;
             this.position = position;
-            this.resolution = resolution;
+            this.size = size;
 
             // Texts
             this.font = font;
             this.text = text;
 
-            textPos = position + (resolution - font.MeasureString(text)) / 2;
+            textPos = position + (size - font.MeasureString(text)) / 2;
 
             // Colors & Textures
             this.text_color = text_color;
@@ -123,10 +121,8 @@ namespace UndeadPlague.Gui.Elements
 
         public void Draw()
         {
-            GlobalData.SpriteBatch.Begin();
             GlobalData.SpriteBatch.Draw(texture, rect, mask_color);
             GlobalData.SpriteBatch.DrawString(font, text, textPos, text_color);
-            GlobalData.SpriteBatch.End();
         }
     }
 }

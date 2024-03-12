@@ -23,7 +23,7 @@ public class SceneManager
 
 
         ScenesStack.Push(Scene);
-        Console.Write(ScenesStack.Peek().ToString());
+        Console.WriteLine(ScenesStack.Peek().ToString());
 
     }
 

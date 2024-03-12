@@ -57,7 +57,11 @@ public class Game1 : Game
         {
             GlobalData.Graphics.GraphicsDevice.Clear(Color.Black);
 
+            GlobalData.SpriteBatch.Begin();
+
             SceneManager.Draw();
+
+            GlobalData.SpriteBatch.End();
         }
 
         base.Draw(gameTime);
